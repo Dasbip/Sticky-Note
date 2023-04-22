@@ -1,0 +1,37 @@
+.Base-page{
+    width: 60%;
+    border: 1px solid;
+}
+.Base-page h1{
+    text-align: center;
+}
+.textarea{
+    width: 30%;
+}
+.sticky-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 350px;
+    overflow: scroll;
+}
+.sticky-body div{
+    border: solid 1px rgb(95, 95, 95);
+    width: 12%;
+    padding: 3%;
+    margin: 0 10px 20px 10px;
+    position: relative;
+    height: 100px;
+}
+.sticky-body div h3{
+    margin-bottom: -10px;
+    margin-top: 6px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.submt{
+    display: grid;
+}
